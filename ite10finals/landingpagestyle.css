@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(background.gif);
+    scroll-behavior: smooth;
+    height: 160vh;
+
+}
+
+
+
+*{
+  box-sizing:border-box ;
+  margin: 0;
+  padding: 0;
+
+}
+
+li, a, button{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  background-image: url(anime.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  list-style: none;
+  opacity: 90%;
+
+}
+
+.info{
+  z-index: 0;
+}
+.logo img{
+  height: 3em;
+  margin: 0;
+  padding: 0px;
+  float: left;
+
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    
+}
+
+.logo b{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  float: left;
+
+}
+
+.nav__links{
+  list-style: none;
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a{
+  transition: all .4s ease 0s;
+  font-size: 20px;
+}
+
+.nav__links a :hover{
+  color: #220b4e;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: rgb(50, 3, 87);
+  border: none ;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color: rgb(201, 120, 255);
+}
+
+.nav__links ul, li, a{
+  cursor: pointer;
+}
+
+
+  .container{
+    position: 100vw;
+    text-align: left;
+    color: #ffffff;
+    font-size: clamp(0.625rem, -1.1128rem + 8.3171vw, 5.375rem); 
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+
+}
+  .container{
+    background-image: url("background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+
+
+
+  .redes {
+    width: 82.64vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    
+  }
+  
+  .redes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: 8vh;
+    transition: all 0.3s ease-in-out;
+  }
+
+
+
+
+
+   .centered {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+
+
+.centered h3{
+  font-family: 'Courgette', 'cursive';
+}
+  .centered h4{
+    text-align: left;
+    color: #ffffff;
+    size: small;
+    font-family:"Arial";
+    font-size: clamp(0.375rem, -0.1023rem + 2.3864vw, 1.6875rem); 
+  }
+  .centered p {
+    text-align: left;
+    font-size: 4rem;
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: clamp(0.1875rem, -0.1989rem + 1.9318vw, 1.25rem);  
+  }
+
+
+  .yapcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.777);
+    width: 100%;
+  }
+  .yaps {
+    text-align: left;
+    color: #ffffff;
+    font-size: 2rem;
+    top: 10%;
+    font-family: 'Cinzel';
+    margin-left: 10vw;
+    margin-top: 2%;
+  }
+  .yaps2{
+    text-align: left;
+    margin-right: 10vw;
+    margin-left: 20vw;
+    padding: 0;
+  }
+
+  
+  .yapping{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  section.first{
+    width:100%;
+    height: 120vh;
+  }
+
+    
+
+    .content{
+      font-size: 1.5rem;
+      font-family: 'PT Sans';
+    }
+
+    .whatdid{
+      font-size: 2rem;
+      opacity: 50%;
+    }
+
+    .angelo{
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .info {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+      font-size: 2rem;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: beige;
+    }
+    
+    

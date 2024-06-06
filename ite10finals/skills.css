@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(anime.gif);
+    scroll-behavior:smooth;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.backbutton img{
+    height: 50px;
+    width: 50px;
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+}
+
+.skill{
+    text-align: center;
+    color: rgba(255, 228, 196, 0.836);
+    font-size: clamp(0.625rem, -1.1128rem + 8.3171vw, 5.375rem); 
+    font-family: 'Courgette', 'cursive';
+    padding-right: 15vw;
+    padding-left: 10vw;
+    background-color: #1d1e22;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 4%;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+.code-editor {
+    max-width: 300px;
+    background-color: #1d1e22;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 2px;
+  }
+  
+  .ulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  .title {
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 1.57px;
+    color: rgb(212 212 212);
+  }
+  
+  .icon {
+    width: 20px;
+    transition: .2s ease;
+  }
+  
+  .icon:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #6e7281;
+  }
+  
+  .editor-content {
+    margin: 0 10px 10px;
+    color: white;
+  }
+  
+  .property {
+    margin-left: 30px;
+  }
+  
+  .property:hover {
+    cursor: text;
+  }
+  
+  .editor-content .color-0 {
+    color: rgb(86 156 214);
+  }
+  
+  .editor-content .color-1 {
+    color: rgb(182 206 168);
+  }
+  
+  .editor-content .color-2 {
+    color: rgb(156 220 254);
+  }
+  
+  .editor-content .color-3 {
+    color: rgb(207 146 120);
+  }
+  
+  .color-preview-1,.color-preview-2 {
+    height: 8px;
+    width: 8px;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-right: 3px;
+  }
+  
+  .color-preview-1 {
+    background-color: #1d1e22;
+  }
+  
+  .color-preview-1 {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .codes{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.background{
+    background-color: rgba(255, 228, 196, 0.61);
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 5%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:20vh ;
+}
